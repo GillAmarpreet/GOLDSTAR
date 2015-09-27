@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Number of emails : 13]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8973" started-at="2015-09-13T16:49:13Z" finished-at="2015-09-13T16:49:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8973" started-at="2015-09-13T16:49:13Z" finished-at="2015-09-13T16:49:22Z">
+      <class name="com.goldstar.test.MyProfileTabTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.goldstar.test.MyProfileTabTests@2a18f23c]" name="init" is-config="true" duration-ms="2576" started-at="2015-09-13T09:49:13Z" finished-at="2015-09-13T09:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="emailHistoryTest()[pri:0, instance:com.goldstar.test.MyProfileTabTests@2a18f23c]" name="emailHistoryTest" duration-ms="5818" started-at="2015-09-13T09:49:16Z" finished-at="2015-09-13T09:49:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Number of emails : 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailHistoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.goldstar.test.MyProfileTabTests@2a18f23c]" name="tearDown" is-config="true" duration-ms="567" started-at="2015-09-13T09:49:22Z" finished-at="2015-09-13T09:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.goldstar.test.MyProfileTabTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

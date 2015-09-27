@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+	<test name="smoke-test1">
+		<groups>
+			  <run>
+			  <include name ="smoke"/>
+			  </run>
+	  	</groups>
+	  	
+		<classes>
+			<class name="com.goldstar.test.BaseTest" />
+			<class name="com.goldstar.test.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="smoke-test">
+		<groups>
+			  <run>
+			  <include name ="smoke"/>
+			  </run>
+	  	</groups>
+	  	
+		<classes>
+			<class name="com.goldstar.test.BaseTest" />
+			<class name="com.goldstar.test.SignUpTest" />
+		</classes>
+	</test>
+	
+</suite>

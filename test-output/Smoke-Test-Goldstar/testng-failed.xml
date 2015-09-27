@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke-Test-Goldstar]">
+  <test name="smoke-test1(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.goldstar.test.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.goldstar.test.LoginTest -->
+      <class name="com.goldstar.test.SignUpTest">
+        <methods>
+          <include name="signUp1"/>
+        </methods>
+      </class> <!-- com.goldstar.test.SignUpTest -->
+    </classes>
+  </test> <!-- smoke-test1(failed) -->
+</suite> <!-- Failed suite [Smoke-Test-Goldstar] -->
