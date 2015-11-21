@@ -10,7 +10,7 @@ import static utils.DriverActions.type;
 public class EmailHistoryPage extends ProfileTab {
 	private WebDriver driver;
 	
-	//private By emails = By.cssSelector("#email_history > tbody > tr");
+	private By emails = By.cssSelector("#email_history > tbody > tr");
 	private By emailHistoryCopy = By.cssSelector("#primary > h1");
 	
 
