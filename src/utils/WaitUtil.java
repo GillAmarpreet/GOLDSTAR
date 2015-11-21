@@ -9,5 +9,13 @@ public class WaitUtil {
 			// do nothing
 		}
 	}
+	
+	public static void waitFiveSeconds() {
+		try {
+			Thread.sleep(5000);
+		} catch(Exception e) {
+			// do nothing
+		}
+	}
 
 }
