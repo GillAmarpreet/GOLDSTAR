@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+
 public abstract class BaseTest {
 	
 	private WebDriver driver;
@@ -14,7 +15,7 @@ public abstract class BaseTest {
 		return this.driver;
 	}
 	
-	@BeforeTest(alwaysRun=true)
+	@BeforeTest
 	public void init() {
 		System.setProperty("webdriver.chrome.driver", "/Users/Gill/Documents/chromedriver");
 		driver =  new ChromeDriver();
@@ -22,7 +23,7 @@ public abstract class BaseTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
-	@AfterTest(alwaysRun=true)
+	@AfterTest
 	public void tearDown() {
 		driver.quit();
 	}
